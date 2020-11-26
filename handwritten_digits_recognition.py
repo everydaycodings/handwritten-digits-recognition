@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 print("Welcome to the everydaycodings (c) Handwritten Digits Recognition v0.2")
 
 # Decide if to load an existing model or to train a new one
-train_new_model = True
+train_new_model = False
 
 if train_new_model:
     # Loading the MNIST data set with samples and splitting it
